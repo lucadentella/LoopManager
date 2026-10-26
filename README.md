@@ -21,7 +21,7 @@ Reverse Loop Manager for DCC model layouts
 ## :wrench: Board
 - [Schematics, PDF](https://github.com/lucadentella/LoopManager/raw/main/board/loopmanager-sch.pdf)
 - [Gerber files, ZIP](https://github.com/lucadentella/LoopManager/raw/main/board/loopmanager-pcb.zip)
-- [Order PCB](https://www.pcbway.com/project/shareproject/TBD)
+- [Order PCB](https://www.pcbway.com/project/shareproject/LoopManager_c862af23.html)
 
 ## :floppy_disk: Firmware
 - [Arduino sketch](https://github.com/lucadentella/LoopManager/tree/main/firmware/LoopManager)

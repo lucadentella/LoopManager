@@ -37,6 +37,8 @@ void setup() {
   pinMode(PIN_LED_STATUS_B, OUTPUT);
   DEBUG_PRINTLN(". PINs configured");
 
+  testLeds();
+
   // Default sensors status, unknown
   s1Status = SENSOR_UNKNOWN;
   s2Status = SENSOR_UNKNOWN;
@@ -65,4 +67,24 @@ void loop() {
 
   // FSM
   FSM();
+}
+
+void testLeds() {
+
+  digitalWrite(PIN_LED_1, HIGH);
+  delay(500);
+  digitalWrite(PIN_LED_1, LOW);
+  digitalWrite(PIN_LED_2, HIGH);
+  delay(500);
+  digitalWrite(PIN_LED_2, LOW);
+  digitalWrite(PIN_LED_LOOP, HIGH);
+  delay(500);
+  digitalWrite(PIN_LED_LOOP, LOW);
+  digitalWrite(PIN_LED_STATUS_A, HIGH);
+  delay(500);
+  digitalWrite(PIN_LED_STATUS_A, LOW);
+  digitalWrite(PIN_LED_STATUS_B, HIGH);
+  delay(500);
+  digitalWrite(PIN_LED_STATUS_B, LOW);
+
 }

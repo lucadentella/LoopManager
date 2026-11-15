@@ -13,7 +13,7 @@ Reverse Loop Manager for DCC model layouts
  - **Arduino** based firmware
 
 ## :movie_camera: Tutorial
-- [Youtube video](pending)
+- [Youtube video](https://youtu.be/hFt7gIIJXjo)
 
 ## :notebook: Documentation
  - [Part list](https://github.com/lucadentella/LoopManager/tree/main/board/partlist.md)
